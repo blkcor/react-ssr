@@ -1,5 +1,11 @@
-import Image from 'next/image'
+import styles from '@/app/home.module.scss'
 
 export default function Home() {
-  return <h1>hello</h1>
+  debugger
+  return (
+    <>
+      <div className={styles.card}>card</div>
+      <div className={styles.info}>info</div>
+    </>
+  )
 }
